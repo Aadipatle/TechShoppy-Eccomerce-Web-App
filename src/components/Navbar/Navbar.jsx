@@ -24,7 +24,7 @@ const NavBar = () => {
   // },[])
   return (
     <Navbar
-      fixed="top"
+      fixed="top" 
       expand="md"
       className={isFixed ? "navbar fixed" : "navbar"}
     >
@@ -96,7 +96,7 @@ const NavBar = () => {
                 to="/shop"
                 onClick={() => setExpand(false)}
               >
-                <span className="nav-link-label">Shop</span>
+                <span className="nav-link-label">Products</span>
               </Link>
             </Nav.Item>
 
@@ -107,7 +107,7 @@ const NavBar = () => {
                 to="/cart"
                 onClick={() => setExpand(false)}
               >
-                <span className="nav-link-label">Cart</span>
+                <span className="nav-link-label">MyCart</span>
               </Link>
             </Nav.Item>
             <Nav.Item className="expanded-cart">
