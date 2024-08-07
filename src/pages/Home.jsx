@@ -17,15 +17,15 @@ const Home = () => {
       <Wrapper />
       <Section
         title="Big Discount"
-        bgColor="#f6f9fc"
+        bgColor="white"
         productItems={discoutProducts}
       />
       <Section
         title="New Arrivals"
-        bgColor="white"
+        bgColor=" #f9f8f8"
         productItems={newArrivalData}
       />
-      <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
+      <Section title="Best Sales" bgColor="white" productItems={bestSales} />
     </Fragment>
   );
 };

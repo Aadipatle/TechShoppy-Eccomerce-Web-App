@@ -36,19 +36,19 @@ import watchSlide from "../Images/watch-07.png";
 export const SliderData = [
   {
       id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "30% Off For First 150 Customers",
+      desc: "Winter sale first 150 customers get 30% off limited deal order now .",
       cover: sofaSlide,
   },
   {
       id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      title: "55% Off For Your First Order",
+      desc: "If you plan buy a new phone so save your 55% money on your first order.  ",
       cover: phone08,
   },
   {
       id: 3,
-      title: "50% Off For Your First Shopping",
+      title: "45% Off Deal Of The Day",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
       cover: wireless01,
   },
