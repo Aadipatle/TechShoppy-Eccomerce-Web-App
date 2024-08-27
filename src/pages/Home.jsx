@@ -25,7 +25,7 @@ const Home = () => {
         bgColor=" #f9f8f8"
         productItems={newArrivalData}
       />
-      <Section title="Best Sales" bgColor="white" productItems={bestSales} />
+      <Section title="Best Sales Products" bgColor="white" productItems={bestSales} />
     </Fragment>
   );
 };
